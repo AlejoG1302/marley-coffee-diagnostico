@@ -122,6 +122,13 @@ footer.f{position:absolute;bottom:calc(var(--pad)*.58);left:var(--pad);right:var
 .dots a{width:7px;height:7px;border-radius:50%;background:rgba(128,128,128,.4);display:block;transition:.18s}
 .dots a.on{background:var(--amar);transform:scale(1.6);box-shadow:0 0 0 2px rgba(94,126,41,.7)}
 
+/* ── lamina 10 · frase de cierre ── */
+.cierre{font-family:'Anton',sans-serif;font-weight:400;text-transform:uppercase;letter-spacing:.01em;
+  font-size:clamp(.95rem,1.85vw,2.35rem);line-height:1.12;margin-top:clamp(.8rem,2vw,1.8rem);max-width:min(94%,880px)}
+.cierre b{color:var(--amar)}
+.cierre + .sub{font-size:var(--sm);letter-spacing:.1em;text-transform:uppercase;font-weight:700;
+  margin-top:.75rem;opacity:.82}
+
 /* ── lamina 05 · grafico de 100 cuadros: 45 parche / 55 crecimiento ── */
 .waffle{display:grid;grid-template-columns:repeat(10,1fr);gap:clamp(3px,.4vw,7px);width:min(100%,clamp(200px,29vw,440px))}
 .waffle i{aspect-ratio:1;background:rgba(0,0,0,.17);display:block}
@@ -425,15 +432,14 @@ footer.f{position:absolute;bottom:calc(var(--pad)*.58);left:var(--pad);right:var
   <div class="tint warm"></div><div class="veil"></div>
   <div class="eyebrow">Lo que sigue</div>
   <h1 class="lines">
-    <span>Cada punto puede</span><span>convertirse en una</span><span class="hl">señal de crecimiento</span>
+    <span>Este diagnóstico</span><span>no propone</span><span class="hl">la solución</span>
   </h1>
   <div class="rule"></div>
-  <p class="lead">Identificar el punto permite <b>comprender su consumo</b>, <b>anticipar sus necesidades</b>
-  y <b>fortalecer su permanencia</b>.</p>
-  <p class="lead mut">Son <b style="color:#fff">3.390 relaciones que Marley ya construyó</b>. Hoy se pueden
-  contar, pero no reconocer.</p>
-  <p class="lead mut">El valor no está solamente en vender más café, sino en
-  <b style="color:#fff">conocer mejor cada relación que Marley Coffee ya construyó</b>.</p>
+  <p class="lead">Entrega el problema delimitado, la evidencia que lo sostiene,
+  <b>el precio de no resolverlo</b> y el orden en que conviene atacarlo.</p>
+  <div class="cierre">Marley Coffee ya construyó la red.
+  <b style="display:block;margin-top:.28em">Cada punto puede convertirse en una señal de crecimiento.</b></div>
+  <div class="sub">Identidad en el punto · señal de consumo · una sola forma de medir</div>
   <footer class="f"><span>Marley Coffee · Food Service</span><span>10 / 10</span></footer>
 </section>
 
