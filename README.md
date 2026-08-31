@@ -19,7 +19,7 @@ dónde se pierde el negocio, cuánto vale esa pérdida y por qué ocurre.
 | 04 | Dónde está la fuga y cuánto pesa |
 | 05 | La cifra: 45% del esfuerzo comercial del año |
 | 06 | Es un piso, no un total — límites declarados |
-| 07 | De dieciocho síntomas a cinco causas raíz |
+| 07 | De diecisiete síntomas a cinco causas raíz |
 | 08 | El problema central |
 | 09 | Dónde intervenir primero, y con qué capacidades |
 | 10 | Cierre |
